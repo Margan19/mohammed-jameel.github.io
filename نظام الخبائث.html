@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحقيقة السريرية والشرعية لنظام الطيبات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans:,
+                    },
+                    colors: {
+                        medical: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            600: '#1d4ed8',
+                            700: '#1d40b0',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        },
+                        warning: '#ef4444',
+                        success: '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+       .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+        }
+       .blur-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+       .tab-active {
+            border-color: #1d4ed8;
+            color: #1d4ed8;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-extrabold text-medical-900 tracking-tight flex items-center gap-2">
+                        <svg class="w-8 h-8 text-medical-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        مرصد الوعي الصحي
+                    </span>
+                </div>
+                <nav class="hidden md:flex space-x-reverse space-x-6 text-sm font-medium text-slate-600">
+                    <a href="#intro" class="hover:text-medical-600 transition">الأبعاد الاجتماعية</a>
+                    <a href="#comparison" class="hover:text-medical-600 transition">المسموحات والممنوعات</a>
+                    <a href="#clinical-risks" class="hover:text-medical-600 transition">المخاطر السريرية</a>
+                    <a href="#shariah" class="hover:text-medical-600 transition">التفنيد الشرعي</a>
+                    <a href="#legal" class="hover:text-medical-600 transition">المساءلة القانونية</a>
+                    <a href="#alternatives" class="hover:text-medical-600 transition">البدائل الآمنة</a>
+                </nav>
+                <div class="flex items-center">
+                    <a href="#alternatives" class="bg-medical-600 hover:bg-medical-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition shadow-md shadow-medical-100">ابتدئ التعافي الآن</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="gradient-bg text-white py-20 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)][background-size:16px_16px]"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <span class="bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider mb-6 inline-block">مراجعة طبية وشرعية شاملة 2026</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+                تفكيك مغالطات "نظام الطيبات" للدكتور ضياء العوضي
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto mb-8">
+                بحث أكاديمي وسريري لتفنيد أوهام الاستبعاد الغذائي، وبيان أثرها الفسيولوجي المدمّر على صحة الإنسان بالبراهين العلمية والقرارات القانونية الرسمية.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#comparison" class="bg-white text-slate-900 font-bold px-6 py-3 rounded-xl hover:bg-slate-100 transition shadow-lg">استعرض أدلة الغذاء</a>
+                <a href="#clinical-risks" class="bg-warning text-white font-bold px-6 py-3 rounded-xl hover:bg-red-600 transition shadow-lg flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    شاهد سجل الضحايا
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7">
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-6 relative">
+                    فهم ظاهرة "الطيبات": الهروب النفسي وحقيقة الحساسية المؤقتة
+                    <span class="block h-1 w-20 bg-medical-600 mt-2 rounded"></span>
+                </h2>
+                <div class="space-y-4 text-slate-600 leading-relaxed">
+                    <p>
+                        إن الانتشار الواسع لنظام "الطيبات" لا ينفصل عن الأزمات الاقتصادية وتصاعد تكاليف الرعاية الصحية وعلاجات الأمراض المزمنة <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[1]</span>. وحين يعجز المريض عن تحمل الأعباء، يصبح الوعد بالاستغناء عن الطب مخرجاً جذاباً تدعمه الكاريزما الواثقة لمؤسس النظام، مما يحدث تحسناً نفسياً فسيولوجياً مؤقتاً لبعض الأعراض المرتبطة بالاضطرابات النفسية الجسدية (Psychosomatic Disorders) <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[2]</span>.
+                    </p>
+                    <p>
+                        وتكمن الخديعة الكبرى هنا في استغلال ظاهرة طبية حقيقية وتشويهها، وهي <strong>"حساسية وعدم تحمل الطعام" (Food Intolerance)</strong> <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[3]</span>. فعندما يتوقف بعض الأفراد عن تناول أطعمة تسبب لهم غازات أو عسر هضم (كالحليب أو البقوليات)، يختبرون راحة معوية فورية وزوالاً للانتفاخ <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[1, 3]</span>.
+                    </p>
+                    <div class="bg-amber-50 border-r-4 border-amber-500 p-4 rounded-l-lg text-amber-900 text-sm">
+                        <strong class="block mb-1">المنع الإقصائي الجائر:</strong>
+                        بدلاً من إخضاع المريض لاختبارات سريرية دقيقة لتحديد مسببات الحساسية بشكل فردي وتجنبها مؤقتاً، فرض العوضي حظراً مطلقاً ومستمراً على الأغذية الأساسية كالدواجن والبيض والخضروات عن جميع البشر دون تفرقة، مما يدخل الجسم في عجز غذائي صامت وطويل المدى يسمى "القاتل الخفي" <span class="text-xs bg-amber-200 text-amber-950 px-1 py-0.5 rounded font-mono">[3, 4]</span>.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-5 bg-white p-8 rounded-2xl border border-slate-200 shadow-xl relative">
+                <div class="absolute top-4 left-4 text-slate-300 font-extrabold text-6xl">”</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-4">عبرة تاريخية: ستيف جوبز</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                    حاول مؤسس شركة آبل، ستيف جوبز، علاج سرطان البنكرياس الذي أصيب به عبر اتباع حميات استبعادية بديلة وتجاهل الطب الحديث، وهو ما أدى في النهاية لتدهور حالته بشكل متسارع ووفاته التي كان بالإمكان تأخيرها لو اتبع البروتوكول العلاجي التقليدي المعتمد <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[4]</span>.
+                </p>
+                <div class="flex items-center gap-3 mt-6 border-t pt-4">
+                    <span class="w-2.5 h-2.5 rounded-full bg-warning animate-ping"></span>
+                    <span class="text-xs text-slate-500 font-medium">الطب لا يُبنى على الآراء الفردية، بل على الأدلة السريرية المتراكمة.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comparison" class="bg-slate-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-4">المحاكمة البيوكيميائية لقوائم الطيبات</h2>
+                <p class="text-slate-600">
+                    يقوم نظام الطيبات بتقسيم الأطعمة إلى فئتين بناءً على افتراضات شاذة علمياً تفتقر للحد الأدنى من الدليل الفسيولوجي <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[5]</span>. انقر على التبويبات بالأسفل لمشاهدة تفاصيل كل مغالطة:
+                </p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 md:p-8 shadow-xl border border-slate-200">
+                <div class="flex flex-wrap border-b border-slate-200 gap-2 mb-8" id="food-tabs">
+                    <button onclick="switchTab('veggies')" id="btn-veggies" class="tab-btn pb-3 px-4 text-sm font-medium border-b-2 border-transparent hover:text-medical-600 transition tab-active">الخضروات الورقية والألياف</button>
+                    <button onclick="switchTab('poultry')" id="btn-poultry" class="tab-btn pb-3 px-4 text-sm font-medium border-b-2 border-transparent hover:text-medical-600 transition">الدواجن والبيض</button>
+                    <button onclick="switchTab('milk')" id="btn-milk" class="tab-btn pb-3 px-4 text-sm font-medium border-b-2 border-transparent hover:text-medical-600 transition">الحليب ومنتجات الألبان</button>
+                    <button onclick="switchTab('ghee')" id="btn-ghee" class="tab-btn pb-3 px-4 text-sm font-medium border-b-2 border-transparent hover:text-medical-600 transition">الدهون المشبعة والسمن</button>
+                    <button onclick="switchTab('sugar')" id="btn-sugar" class="tab-btn pb-3 px-4 text-sm font-medium border-b-2 border-transparent hover:text-medical-600 transition">السكريات ورقائق البطاطس</button>
+                </div>
+
+                <div id="tab-veggies" class="tab-content block">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+                            <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">حظر نظام الطيبات</span>
+                            <p class="text-red-950 font-bold text-lg mb-2">"الخضار حشائش لا تنهضم وتدمر القولون"</p>
+                            <p class="text-red-850 text-sm leading-relaxed">
+                                صنف النظام كافة الورقيات كحشائش تسبب تعباً حاداً وعسر هضم والتهابات للأمعاء، وشدد على منعها تماماً عن الجميع <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[6, 7]</span>.
+                            </p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-2xl border border-green-100">
+                            <span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">الحقيقة العلمية والسريرية</span>
+                            <p class="text-green-950 font-bold text-lg mb-2">الألياف غذاء الميكروبيوم وعمود حركة الأمعاء</p>
+                            <p class="text-green-850 text-sm leading-relaxed mb-4">
+                                الألياف هي المحرك الأساسي للأمعاء والغذاء الوحيد للبكتيريا النافعة (Microbiome) المسؤولة عن المناعة وتقليل الالتهابات الجسدية <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[8]</span>.
+                            </p>
+                            <div class="text-xs text-green-900 border-t border-green-200 pt-3 space-y-1">
+                                <strong>العواقب طويلة المدى:</strong>
+                                <span>ضمور بطانة الأمعاء، إمساك مزمن حاد، تدهور المناعة، نقص حمض الفوليك وفيتامين K، وارتفاع خطر الإصابة بنزيف الأسنان والأسقربوط وهشاشة العظام <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[8, 9, 10]</span>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-poultry" class="tab-content hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+                            <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">حظر نظام الطيبات</span>
+                            <p class="text-red-950 font-bold text-lg mb-2">"الدواجن بيضاء هي خنازير الطيور ومصنع أمراض"</p>
+                            <p class="text-red-850 text-sm leading-relaxed">
+                                ادعى النظام أن الدواجن المزارع تتغذى على الهرمونات والمضادات الحيوية مسببة التهابات صامتة وتدميراً كاملاً للهرمونات الجنسية <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[11]</span>.
+                            </p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-2xl border border-green-100">
+                            <span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">الحقيقة العلمية والسريرية</span>
+                            <p class="text-green-950 font-bold text-lg mb-2">مصدر رئيسي للبروتين المتكامل والأحماض الأمينية</p>
+                            <p class="text-green-850 text-sm leading-relaxed mb-4">
+                                الدواجن منزوعة الجلد والبيض تمثل بروتينات ذات قيمة بيولوجية فائقة تمد الجسم بالأحماض الأمينية الأساسية لبناء العضلات، تجديد الخلايا، وإنتاج الأجسام المضادة لجهاز المناعة <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[12, 5]</span>.
+                            </p>
+                            <div class="text-xs text-green-900 border-t border-green-200 pt-3 space-y-1">
+                                <strong>العواقب طويلة المدى:</strong>
+                                <span>هدم عضلي متسارع (Sarcopenia)، انخفاض الكفاءة المناعية، فقر الدم الشديد (الأنيميا)، وتأخر التئام الجروح والكسور <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[12, 9]</span>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-milk" class="tab-content hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+                            <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">حظر نظام الطيبات</span>
+                            <p class="text-red-950 font-bold text-lg mb-2">"الحليب السائل سم للبالغين ومسبب للمخاط"</p>
+                            <p class="text-red-850 text-sm leading-relaxed">
+                                ادعى العوضي أن الحليب السائل يسبب تراكم المخاط في الجيوب الأنفية والتهابات حادة بالقولون، واصفاً إياه بالسم الفتاك بمجرد بلوغ الفطام <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[11]</span>.
+                            </p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-2xl border border-green-100">
+                            <span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">الحقيقة العلمية والسريرية</span>
+                            <p class="text-green-950 font-bold text-lg mb-2">المخزن الأساسي للكالسيوم وفيتامين د</p>
+                            <p class="text-green-850 text-sm leading-relaxed mb-4">
+                                الحليب السائل والمنتجات الطبيعية تمثل الأساس لبناء الكتلة الهيكلية والوقاية من تآكل الكثافة المعدنية للعظام، عدا الحالات الفردية التي تعاني سريرياً من حساسية اللاكتوز المثبتة <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[3, 5]</span>.
+                            </p>
+                            <div class="text-xs text-green-900 border-t border-green-200 pt-3 space-y-1">
+                                <strong>العواقب طويلة المدى:</strong>
+                                <span>تخلخل الكالسيوم من العظام وهشاشة العظام والأسنان المبكرة، وعسر نمو الأطفال والمراهقين <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[5]</span>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-ghee" class="tab-content hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+                            <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">تصريح نظام الطيبات</span>
+                            <p class="text-red-950 font-bold text-lg mb-2">"السمن والزبدة منظف للشرايين والوقود المثالي للقلب"</p>
+                            <p class="text-red-850 text-sm leading-relaxed">
+                                سمح النظام باستهلاك الدهون الحيوانية والسمن والزبدة بلا قيود، مدعياً أنها لا تسد الشرايين بل تنظفها من الكوليسترول <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[11]</span>.
+                            </p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-2xl border border-green-100">
+                            <span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">الحقيقة العلمية والسريرية</span>
+                            <p class="text-green-950 font-bold text-lg mb-2">ارتفاع الكوليسترول الضار وتصلب الشرايين التاجية</p>
+                            <p class="text-green-850 text-sm leading-relaxed mb-4">
+                                توصي جمعيات القلب العالمية بألا تتجاوز الدهون المشبعة 6% من إجمالي السعرات اليومية (حوالي 13 جراماً يومياً لنمط 2000 سعرة) لتفادي بناء لويحات التصلب الشرياني القاتلة <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[5]</span>.
+                            </p>
+                            <div class="text-xs text-green-900 border-t border-green-200 pt-3 space-y-1">
+                                <strong>العواقب طويلة المدى:</strong>
+                                <span>تراكم جزيئات الـ LDL صغيرة الحجم في الأوعية الدموية وأكسدتها وتفعيل هجوم مناعي داخل جدران الشرايين التاجية، مما يؤدي للجلطات القلبية الصاعقة والوفاة المفاجئة <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[13]</span>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-sugar" class="tab-content hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+                            <span class="bg-red-100 text-red-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">تصريح نظام الطيبات</span>
+                            <p class="text-red-950 font-bold text-lg mb-2">"النوتيلا والبسبوسة والشيبس مسموحة بالكامل"</p>
+                            <p class="text-red-850 text-sm leading-relaxed">
+                                سمح النظام للمرضى بتناول السكريات والحلويات المصنعة، المربيات، رقائق البطاطس التجارية (الشيبس بموادها الحافظة) دون ضوابط أو كميات محددة <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[5, 14]</span>.
+                            </p>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-2xl border border-green-100">
+                            <span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">الحقيقة العلمية والسريرية</span>
+                            <p class="text-green-950 font-bold text-lg mb-2">مقاومة الأنسولين السريعة والتهابات الكبد الدهني</p>
+                            <p class="text-green-850 text-sm leading-relaxed mb-4">
+                                تسبب هذه الأطعمة رفع الحمل الجلايسيمي بحدة في الدم، مما يجبر البنكرياس على ضخ الأنسولين بكثافة فائقة تؤدي لاستهلاك الخلايا ومقاومة الأنسولين والالتهابات المعوية والخلل الأيضي الكارثي <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[1, 12]</span>.
+                            </p>
+                            <div class="text-xs text-green-900 border-t border-green-200 pt-3 space-y-1">
+                                <strong>العواقب طويلة المدى:</strong>
+                                <span>متلازمة التمثيل الغذائي، تشحم الكبد، زيادة الوزن الكارثي، التهاب الأعصاب الطرفية، وتفاقم الأورام السرطانية سريعة النمو التي يمثل الجلوكوز وقودها الأول <span class="text-xs bg-green-200 text-green-950 px-1 py-0.5 rounded font-mono">[12, 9, 15]</span>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="clinical-risks" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-warning font-bold text-sm tracking-widest uppercase bg-red-100 px-3 py-1 rounded-full">التحذير الطبي الأشد خطورة</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 mt-3 mb-4">المخاطر السريرية لإيقاف العلاج وسجل الضحايا</h2>
+            <p class="text-slate-600">
+                إن الجانب الأكثر فتكاً في نظام الطيبات يكمن في إصراره المضلل على حث مرضى السكري، والقلب، والمناعة على إيقاف أدويتهم المنقذة للحياة، مما تسبب مباشرة في فواجع طبية كبرى ووفيات مؤكدة <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[9, 16, 15]</span>.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-5 bg-slate-900 text-white p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden">
+                <div class="absolute -right-16 -top-16 w-32 h-32 bg-red-600/20 rounded-full blur-2xl"></div>
+                <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                    <svg class="w-6 h-6 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    فسيولوجيا إيقاف الأنسولين وحموضة الدم الكيتونية (DKA)
+                </h3>
+                <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                    <div class="border-r-2 border-red-500 pr-3">
+                        <strong class="block text-white mb-1">1. مجاعة طاقة في الخلايا:</strong>
+                        عند إيقاف الأنسولين لمرضى النوع الأول، يعجز الجلوكوز عن دخول الخلايا فتبدأ الأخيرة بالشعور بمجاعة طاقة برغم تكدس السكر بالدم <span class="text-xs bg-slate-850 text-slate-300 px-1 py-0.5 rounded font-mono">[12]</span>.
+                    </div>
+                    <div class="border-r-2 border-red-500 pr-3">
+                        <strong class="block text-white mb-1">2. تراكم الأجسام الكيتونية:</strong>
+                        يشرع الجسم سريعاً في تكسير الدهون لإنتاج طاقة بديلة، مما يؤدي لتراكم مفرط في الأجسام الكيتونية التي تحول الدم إلى بيئة حمضية سامة <span class="text-xs bg-slate-850 text-slate-300 px-1 py-0.5 rounded font-mono">[12, 17]</span>.
+                    </div>
+                    <div class="border-r-2 border-red-500 pr-3">
+                        <strong class="block text-white mb-1">3. اضطراب أملاح الدم القاتل:</strong>
+                        ينتج جفاف حاد وخسارة للبوتاسيوم ($K^+$) خارج الخلايا، وهو ما يسبب تخلخلاً فورياً في كهربية القلب يفضي إلى رجفان قاتل وتوقف تام لعضلة القلب <span class="text-xs bg-slate-850 text-slate-300 px-1 py-0.5 rounded font-mono">[12, 17]</span>.
+                    </div>
+                    <div class="border-r-2 border-amber-500 pr-3">
+                        <strong class="block text-amber-300 mb-1">4. لمرضى النوع الثاني والتهاب الكلى:</strong>
+                        يؤدي إيقاف الأدوية مع تناول البسبوسة والسكريات المسموحة لارتفاع السكر التراكمي متجاوزاً عتبة 140 ملجم/ديسيلتر، مما يطلق تفاعلات غلايكة كيميائية غير إنزيمية تدمر الكلى، تسبب العمى، وتؤدي إلى التهاب شبكي وعصبي حاد وانسداد الشرايين <span class="text-xs bg-slate-850 text-slate-300 px-1 py-0.5 rounded font-mono">[13]</span>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <svg class="w-6 h-6 text-medical-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    سجل الحالات الطبية المتدهورة والوفيات المثبتة للضحايا
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-200 hover:shadow-lg transition">
+                        <span class="bg-red-50 text-red-700 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">وفاة مباشرة</span>
+                        <h4 class="font-bold text-slate-900 mb-2">مريضة ذئبة حمراء (مستقرة لـ 8 سنوات)</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            بعد اتباع النظام وإيقاف أدوية المناعة والكورتيزون كلياً، عانت من هجوم مناعي جهازي عنيف وانتهى بها الأمر بنزيف حاد وصاعق بالدماغ أدى لوفاتها الفورية <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[16, 15]</span>.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-200 hover:shadow-lg transition">
+                        <span class="bg-amber-50 text-amber-700 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">فشل كلوي حاد</span>
+                        <h4 class="font-bold text-slate-900 mb-2">مريضة قصور كلوي دهني (مستقرة)</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            أقنعها النظام بإيقاف أدوية الكلى والضغط لـ 21 يوماً متواصلة، مما فجر تراكم السموم البولية واليوريا، وأدى لفشل كلوي حاد تطلب الدخول العاجل للعناية للبدء في غسيل الكلى المستمر <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[18]</span>.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-200 hover:shadow-lg transition">
+                        <span class="bg-red-50 text-red-700 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">العمى ثم الغيبوبة والوفاة</span>
+                        <h4 class="font-bold text-slate-900 mb-2">مرضى سكري أوقفوا الأنسولين</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            مريضة تناولت البسبوسة مع إيقاف الأنسولين فأصيبت بالعمى التام وتوفيت لاحقاً بمضاعفات حادة. وحالة أخرى لمهندس واجه غيبوبة سكر قاتلة أثناء القيادة قضت على حياته <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[9, 15]</span>.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-200 hover:shadow-lg transition">
+                        <span class="bg-red-50 text-red-700 text-xs font-bold px-2.5 py-1 rounded-full mb-3 inline-block">سرطان متفجر ووفاة</span>
+                        <h4 class="font-bold text-slate-900 mb-2">مريضة السرطان "حنين" وآخرون</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">
+                            كانت على وشك التغلب على السرطان، فطلبت الطيبات منها إيقاف العلاج الكيميائي وتناول السكريات بحرية، مما غطى حاجة الخلايا السرطانية سريعة الانقسام وعجل بانتشار الورم ووفاتها <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[9, 15]</span>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shariah" class="bg-medical-50 py-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="bg-medical-100 text-medical-800 text-xs font-bold px-3 py-1 rounded-full uppercase">المحاكمة اللغوية والشرعية</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-3 mb-4">التفكيك الشرعي والبياني لتأويلات العوضي</h2>
+                <p class="text-slate-600 text-sm md:text-base">
+                    حاول الدكتور العوضي شرعنة نظامه عبر تفسيرات دينية شاذة تحرف الآيات عن مواضعها اللغوية وتدعي تحريم أطعمة أباحها الله ورسوله ﷺ <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[4, 19]</span>.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button onclick="toggleAccordion('acc-1')" class="w-full text-right p-6 font-bold text-lg text-slate-900 flex justify-between items-center bg-slate-50">
+                        <span>1. تفنيد فرية "أدنى الطعام" وتفسير آية البقرة 61</span>
+                        <svg id="icon-acc-1" class="w-5 h-5 text-slate-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div id="acc-1" class="hidden p-6 border-t border-slate-200 text-slate-600 text-sm leading-relaxed space-y-3">
+                        <p class="font-semibold text-slate-900">الادعاء المزعوم:</p>
+                        <p class="bg-red-50 text-red-900 p-3 rounded-lg">
+                            زعم العوضي أن قوله تعالى ﴿أَتَسْتَبْدِلُونَ الَّذِي هُوَ أَدْنَىٰ بِالَّذِي هُوَ خَيْرٌ﴾ يثبت أن العدس والبصل والبقوليات هي أطعمة خبيثة ورديئة علمياً وتسبب الأمراض، لذلك يجب حظرها <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[4, 14]</span>.
+                        </p>
+                        <p class="font-semibold text-slate-900">الرد اللغوي والبياني القاطع:</p>
+                        <p>
+                            أوضح أئمة التفسير قاطبة (كالطبري والرازي وابن عاشور) أن التوبيخ لم يكن للضرر الفسيولوجي للبقول، بل لسوء الاختيار المعيشي والاقتصادي <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[14, 20]</span>.
+                        </p>
+                        <p>
+                            <strong>قاعدة الباء في لغة العرب:</strong> تدخل الباء دائماً على الشيء المتروك. وبذلك يكون المتروك هو "الذي هو خير" (المن والسلوى: وهو طعام طيب القيمة ومتيقن الحصول بلا عناء)، والمأخوذ بديلاً هو "الذي هو أدنى" (أي أقل قيمة وتفاضلاً ويتطلب زراعة وسقياً وبذل جهد وعناء طائل للحصول عليه) <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[14, 20, 21]</span>.
+                        </p>
+                        <p>
+                            ولم يقل أحد من علماء الأمة قط أن هذه الأغذية خبيثة بل هي من زروع الأرض النافعة والطيبات التي امتن الله بها، وتسميتها بالخبائث تجرؤ صريح على تحريم ما أحل الله <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[14, 22]</span>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button onclick="toggleAccordion('acc-2')" class="w-full text-right p-6 font-bold text-lg text-slate-900 flex justify-between items-center bg-slate-50">
+                        <span>2. دحض الافتراءات التاريخية حول طعام الرسول ﷺ وأكل الدواجن</span>
+                        <svg id="icon-acc-2" class="w-5 h-5 text-slate-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div id="acc-2" class="hidden p-6 border-t border-slate-200 text-slate-600 text-sm leading-relaxed space-y-3">
+                        <p class="font-semibold text-slate-900">الادعاء المزعوم:</p>
+                        <p class="bg-red-50 text-red-900 p-3 rounded-lg">
+                            ادعى العوضي كذباً وباطلاً أن النبي ﷺ لم يأكل الدواجن قط، وزعم أن الدجاج لم يكن من طعام العرب إطلاقاً لتبرير منع اللحوم البيضاء <span class="text-xs bg-red-200 text-red-950 px-1 py-0.5 rounded font-mono">[4, 5, 23]</span>.
+                        </p>
+                        <p class="font-semibold text-slate-900">الدليل الشرعي القطعي من السنة المطهرة:</p>
+                        <p class="bg-slate-50 p-4 border-r-4 border-medical-600 rounded-l-lg text-slate-800 italic">
+                            أخرج الإمام البخاري في صحيحه في "باب لحم الدجاج" عن زهدم الجرمي قال: «كُنَّا عِنْدَ أبِي مُوسَى الأشْعَرِيِّ... فَأُتِيَ بطَعَامٍ فيه لَحْمُ دَجَاجٍ... فَقَالَ ادْنُ فَقَدْ رَأَيْتُ رَسُولَ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ يَأْكُلُ منه» <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[24, 25, 26]</span>.
+                        </p>
+                        <p>
+                            يثبت هذا النص الصريح إباحة أكل الدجاج بالإجماع وطهارته وتفضيل أكله في العصر النبوي <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[26, 27]</span>. ولم يحرم الفقهاء سوى الدجاجة "الجلالة" (التي تتغذى كلياً على النجاسات)، وحتى هذه يزول المنع عنها تماماً بحبسها وإطعامها علفاً طاهراً لثلاثة أيام متوالية كما كان يفعل ابن عمر رضي الله عنهما، مما يسقط فرية التحريم المطلق بناء على ظروف التربية الحديثة <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[26, 27]</span>.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="legal" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-6 space-y-6">
+                <span class="bg-warning/10 text-warning text-xs font-bold px-3 py-1.5 rounded-full uppercase">المساءلة والقرارات الرسمية 2026</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 leading-tight">
+                    شطب نهائي وغلق جنائي لعيادة مؤسس النظام
+                </h2>
+                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                    إن الحقيقة الأكاديمية والمهنية الصادمة التي أخفاها العوضي عن مريديه هي أنه <strong>لم يكن طبيباً متخصصاً في التغذية العلاجية</strong>، بل استشارياً في التخدير والعناية المركزة وعلاج الألم <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[2, 28]</span>.
+                </p>
+                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                    وبسبب تكرار ممارساته المضللة التي هددت صحة المواطنين وأدت إلى تفشي كوارث مرضية ووفيات، بادرت الدولة المصرية ممثلة في مؤسساتها الطبية والرقابية باتخاذ إجراءات صارمة ورادعة <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[29, 28]</span>:
+                </p>
+                <ul class="space-y-3 text-slate-600 text-sm">
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-warning shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span><strong>الفصل الأكاديمي:</strong> طرد وفصل العوضي من عمله بجامعة عين شمس في عام 2024 <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[19, 30]</span>.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-warning shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span><strong>إسقاط العضوية والشطب النهائي:</strong> في مارس من عام 2026، أصدرت نقابة أطباء مصر قراراً نهائياً بشطبه نهائياً وإسقاط عضويته لترويجه لمعلومات طبية غير مثبتة تضر بصحة المرضى <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[28, 31]</span>.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-warning shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span><strong>إلغاء الترخيص والإغلاق الفوري:</strong> ألغت وزارة الصحة المصرية رخصته لمزاولة مهنة الطب نهائياً، وتم تشميع وإغلاق عيادته ومنشأته الطبية بالكامل لمنعه من مزاولة أي نشاط طبي <span class="text-xs bg-slate-200 text-slate-700 px-1 py-0.5 rounded font-mono">[29, 31, 32]</span>.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lg:col-span-6 bg-slate-950 text-white p-8 rounded-3xl border border-slate-800 shadow-2xl relative">
+                <div class="absolute right-4 top-4 text-xs font-mono text-warning/70 border border-warning/20 px-2 py-1 rounded">تقرير الطب الشرعي الرسمي</div>
+                <h3 class="text-2xl font-bold text-white mt-4 mb-6">المفارقة الفسيولوجية والتراجيدية الكبرى لوفاة العوضي</h3>
+                
+                <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                    <p>
+                        عقب وفاته في دبي في إبريل 2026، روّج متابعوه لإشاعات تدعي اغتياله وتصفيته من قبل مافيا شركات الأدوية <span class="text-xs bg-slate-900 text-slate-300 px-1 py-0.5 rounded font-mono">[19, 33]</span>.
+                    </p>
+                    <p>
+                        إلا أن تقرير تشريح الجثمان والطب الشرعي الرسمي بدبي نسف تماماً هذه الادعاءات؛ حيث أثبت عدم وجود أي شبهة جنائية أو آثار عنف، وحدد أن السبب المباشر للوفاة هو <strong>"جلطة حادة مفاجئة بالشريان التاجي الأيسر" (Acute Left Coronary Artery Thrombosis)</strong> أودت بحياته بمفرده في الفندق <span class="text-xs bg-slate-900 text-slate-300 px-1 py-0.5 rounded font-mono">[18, 34, 35]</span>.
+                    </p>
+                    
+                    <div class="bg-red-950/50 border-r-4 border-red-500 p-4 rounded text-red-100 text-xs mt-4">
+                        <strong class="block text-sm text-white mb-1">البيولوجيا لا تجابي أحداً:</strong>
+                        مات العوضي بالمرض نفسه الذي ادعى حماية مريديه وتطهير شرايينهم منه! حيث كان مدخناً شرساً للسيجار مروجاً بشكل شاذ طبياً لقدرة الرئة على التنظيف الذاتي ومدافعاً عن النيكوتين، وفي ذات الوقت كان يمنع تناول أدوية خفض الكوليسترول والسيولة، ويسرف في تناول السمن والدهون الحيوانية <span class="text-xs bg-slate-900 text-slate-300 px-1 py-0.5 rounded font-mono">[11, 18, 27, 23]</span>. 
+                        تحققت نبوءته الفسيولوجية الدقيقة حين صرح مسبقاً في مقطع فيديو: "أنا هموت في الأربعينات وهيجيلي جلطة وذبحة صدرية من التدخين" <span class="text-xs bg-slate-900 text-slate-300 px-1 py-0.5 rounded font-mono">[18, 27]</span>.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="alternatives" class="gradient-bg text-white py-16">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-extrabold mb-6">خارطة الطريق للاستشفاء الحقيقي والبدائل الآمنة</h2>
+            <p class="text-slate-300 text-lg mb-12 max-w-2xl mx-auto">
+                الرجوع للحق فضيلة، وحفظ النفس والبدن من الكليات المقاصدية الخمس للشريعة الإسلامية. إليك التوصيات المعتمدة للعودة للحياة الصحية الآمنة:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-right">
+                
+                <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="w-10 h-10 rounded-xl bg-medical-600 flex items-center justify-center font-bold text-lg mb-4 text-white">١</div>
+                    <h3 class="font-bold text-lg mb-2 text-white">العودة الفورية للأدوية</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        يجب على جميع المرضى الذين أوقفوا أدوية السكري، أو الضغط، أو الكوليسترول، أو مميعات الدم مراجعة أطبائهم الاستشاريين فوراً والرجوع للجرعات الآمنة لتجنب الجلطات المفاجئة <span class="text-xs bg-white/10 text-white px-1 py-0.5 rounded font-mono">[15, 36]</span>.
+                    </p>
+                </div>
+
+                <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="w-10 h-10 rounded-xl bg-medical-600 flex items-center justify-center font-bold text-lg mb-4 text-white">٢</div>
+                    <h3 class="font-bold text-lg mb-2 text-white">إعادة إدخال الخضار والألياف</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        إدراج الخضار والورقيات والبروتينات الطبيعية (دواجن منزوعة الجلد وبيض طازج) بشكل تدريجي مدروس لاستعادة نمو الميكروبيوم النافع وعلاج نقص المغذيات وفقر الدم والأسقربوط <span class="text-xs bg-white/10 text-white px-1 py-0.5 rounded font-mono">[8, 10, 33]</span>.
+                    </p>
+                </div>
+
+                <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition">
+                    <div class="w-10 h-10 rounded-xl bg-medical-600 flex items-center justify-center font-bold text-lg mb-4 text-white">٣</div>
+                    <h3 class="font-bold text-lg mb-2 text-white">الاعتماد على الحميات المعتمدة</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        تبني نظام البحر الأبيض المتوسط أو نظام DASH لمرضى الضغط والقلب، حيث يركزان على تقليل الصوديوم والدهون المشبعة لأقل من 6% واستبدالها بالخضار والأسماك والدهون غير المشبعة <span class="text-xs bg-white/10 text-white px-1 py-0.5 rounded font-mono">[5, 37]</span>.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="mt-12 p-6 bg-medical-800 rounded-2xl inline-block text-sm border border-medical-700">
+                <span>تذكر دائماً: العلاج الطبي العلاجي يُصمم بصورة فردية لكل مريض وفق تحاليله الخاصة ولا توجد حمية واحدة تصلح للجميع <span class="text-xs bg-medical-950 text-white px-1 py-0.5 rounded font-mono">[1, 3]</span>.</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-500 py-12 border-t border-slate-
